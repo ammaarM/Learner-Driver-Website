@@ -25,8 +25,10 @@ jQuery(document).ready(function() {
     /*
         Background slideshow
     */
-	$('.top-content').backstretch("assets/img/backgrounds/1.jpg");
+	$('.top-content').backstretch("https://www.thesun.co.uk/wp-content/uploads/2019/07/NINTCHDBPICT000504832617-e1562980210607.jpg");
+	//$('.top-content').backstretch("assets/img/backgrounds/2.jpg");
     $('.section-4-container').backstretch("assets/img/backgrounds/1.jpg");
+	
     
     /*
 	    Wow
