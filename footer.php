@@ -1,7 +1,8 @@
 <?php
+//PHP structure based on Coyier, C. (2019) PHP Templating in Just PHP | CSS-Tricks. Available at: https://css-tricks.com/php-templating-in-just-php/ (Accessed: 28 March 2021).
 $html =  '
 <!-- Footer -->
-<footer class="bg-dark text-white text-lg-start">
+<footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
@@ -14,9 +15,9 @@ $html =  '
                     <h5 class="text-uppercase">Contact us</h5>
 
                     <ul class="list-unstyled mb-0">
-                        <li><i class="fas fa-map-marker-alt"></i>5 Fancy street name, London, EC1A 0XZ</li>
-                        <li><i class="fas fa-phone"></i>+44 020 020 0200</li>
-                        <li><i class="fas fa-envelope"></i>email@LoseTheL.co.uk</li>
+                        <li><i class="fas fa-map-marker-alt"></i>9 King Street, London, EC1A 0XZ</li>
+                        <li><i class="fas fa-phone"></i>+44 020 034 0629</li>
+                        <li><i class="fas fa-envelope"></i>booknow@LoseTheL.co.uk</li>
                     </ul>
                 </div>
 

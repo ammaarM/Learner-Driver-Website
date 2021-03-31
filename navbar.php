@@ -1,11 +1,12 @@
 <?php
+//PHP structure based on Coyier, C. (2019) PHP Templating in Just PHP | CSS-Tricks. Available at: https://css-tricks.com/php-templating-in-just-php/ (Accessed: 28 March 2021).
 $html = '<!DOCTYPE html>
 <head>
    <!-- Required meta tags -->
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-   <title>Share Your travels</title>
+   <title>Lose The L</title>
 
    <!-- CSS -->
    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
@@ -14,7 +15,7 @@ $html = '<!DOCTYPE html>
    <link rel="stylesheet" href="assets/css/animate.css">
    <link rel="stylesheet" href="assets/css/style.css">
    <link rel="stylesheet" href="assets/css/media-queries.css">
-   <link rel="icon" href="assets/img/images/related-large-2.jpg" type="image/jpg" sizes="16x16">';
+   <link rel="icon" href="assets/img/images/l-plate-jumbo-badge-11378-p.jpg" type="image/jpg" sizes="16x16">';
 
 $html .= '<title>' . $pageTitle .'</title>';
 $html .=   '</head>
@@ -23,7 +24,7 @@ $html .=   '</head>
     <!-- Menu -->
     <nav class="navbar navbar-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.php">Share Your Travels</a>
+            <a class="navbar-brand" href="index.php">Lose The L</a>
 
             <!-- Burger menu -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
