@@ -2,7 +2,7 @@
     // connect to the database
     //use your moodle student name both as the login (second parameter) and the name of the database you are connecting to (last parameter)
     //the password is your student id number, which is nine digits long as the third parameter - the password
-	$conn = new mysqli('smcse-stuproj00.city.ac.uk', 'abcd123', '000000000', 'abcd123'); 
+	$conn = new mysqli('smcse-stuproj00.city.ac.uk','adbs864','200008250','adbs864'); 
     if ($conn->connect_errno) {
         printf("Connection failed: %s\n", $conn->connect_error);
         exit();
@@ -20,7 +20,7 @@
         
         // this is for back-end form validation
         // query that selects the username field
-        $query_username = "SELECT username FROM UserDetails WHERE username = '$username'";
+        $query_username = "SELECT username FROM userDetails WHERE username = '$username'";
         // execute the query
         $res_username = mysqli_query($conn, $query_username);
 
@@ -28,14 +28,14 @@
         if (mysqli_num_rows($res_username) > 0) {
             echo "<script language='javascript'>
                     alert('Username already taken. Registration failed.');
-                    window.location.href = 'https://smcse.city.ac.uk/student/abcd123/form.php';
+                    window.location.href = 'https://smcse.city.ac.uk/student/adbs864/login.php';
                     </script>";
         }
         // if the username does not exist then...
         else {
             // insert values from the input fields to the database
             //username, fName, lName, mobile, email, password = names of columns you created in your database
-            mysqli_query($conn, "INSERT INTO UserDetails (username, fName, lName, mobile, email, password)
+            mysqli_query($conn, "INSERT INTO userDetails (Username, FirstName, LastName, number, Email, Password)
             VALUES ('$username', '$firstName', '$lastName', '$mobile', '$email', '$hashed_pword')")
                 
             or die(mysqli_error($conn)); // cancel if there is an error
@@ -43,7 +43,7 @@
             // then redirect the user to the same page and log in (change to appropriate URL)
             echo "<script language='javascript'>
                     alert('Registered successfully!')
-                    window.location.href = 'https://smcse.city.ac.uk/student/abcd123/form.php ';
+                    window.location.href = 'https://smcse.city.ac.uk/student/adbs864/login.php ';
                     </script>";
         }
     }

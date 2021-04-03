@@ -1,7 +1,7 @@
 <?php
 //PHP structure based on Coyier, C. (2019) PHP Templating in Just PHP | CSS-Tricks. Available at: https://css-tricks.com/php-templating-in-just-php/ (Accessed: 28 March 2021).
 $pageTitle = 'Lose The L - Login';
-require_once('/u1.bath/s06/adbs864/public_html/navbar.php');
+require_once "navbar.php";
 ?>
 
     <!-- Section -->
@@ -24,7 +24,7 @@ require_once('/u1.bath/s06/adbs864/public_html/navbar.php');
             <div class="row">
                 <!-- Login form -->
                 <div class="col-md-6 section-3-box wow fadeInLeft">
-                    <form method="post" action="#" id="login-form">
+                    <form method="post" action="log.php" id="login-form">
                         <div class="container">
                             <fieldset class="fields" id="fieldset2">
                                 <h2>Login</h2>
@@ -52,7 +52,7 @@ require_once('/u1.bath/s06/adbs864/public_html/navbar.php');
                 </div>
                 <!-- Registration form -->
                 <div class="col-md-6 section-3-box wow fadeInLeft">
-                    <form method="post" action="#" id="register-form">
+                    <form method="post" action="register.php" id="register-form">
                         <div class="container">
                             <fieldset class="fields" id="fieldset1">
                                 <h2>Register</h2>
@@ -116,8 +116,9 @@ require_once('/u1.bath/s06/adbs864/public_html/navbar.php');
                 </div>
             </div>
         </div>
+        
     </main>
 
 <?php
-require_once('/u1.bath/s06/adbs864/public_html/footer.php');
+require_once "footer2.php";
 ?>

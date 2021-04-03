@@ -1,7 +1,5 @@
 <?php
-    if(!isset($_SESSION)) { // if session hasn't started yet, then start the session
-        session_start();
-    }
+    
 ?>
 
 <p>Enter your user details</p>

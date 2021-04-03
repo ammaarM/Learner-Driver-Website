@@ -42,8 +42,7 @@ $html =  '
     <script src="assets/js/jquery.backstretch.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/scripts.js"></script>
-    
-
+    <script src="assets/js/form_validation.js"></script> <!-- validation for the form -->
     </body>
     </html>';
     echo $html;

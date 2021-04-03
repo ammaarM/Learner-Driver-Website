@@ -1,7 +1,7 @@
 <?php
 //PHP structure based on Coyier, C. (2019) PHP Templating in Just PHP | CSS-Tricks. Available at: https://css-tricks.com/php-templating-in-just-php/ (Accessed: 28 March 2021).
 $pageTitle = 'Lose The L - About Us';
-require_once('/u1.bath/s06/adbs864/public_html/navbar.php');
+require_once "navbar.php";
 ?>
 
 <!-- 
@@ -31,13 +31,13 @@ require_once('/u1.bath/s06/adbs864/public_html/navbar.php');
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-8 section-1-box wow fadeInUp">
+                <div class="col-md-6 section-1-box wow fadeInUp">
                     <p class="medium-paragraph">
                         Here are Lose The L we provide high quality driving lessons for all types of learner drivers.
                         We aim to help to help you master driving in the most efficient and safest way possible. 
                     </p>
                 </div>
-                <div class="col-md-4 section-1-box wow fadeInDown">
+                <div class="col-md-6 section-1-box wow fadeInDown">
                     <img src="https://cdn.images.express.co.uk/img/dynamic/24/590x/secondary/Driving-lessons-latest-2464063.jpg?r=1591771069035">
                     <!-- 
                         Image Source:
@@ -64,16 +64,13 @@ require_once('/u1.bath/s06/adbs864/public_html/navbar.php');
                     <div class="row">
                         <div class="col-md-3">
                             <div class="section-3-box-icon">
-                                <i class="fas fa-pencil-alt"></i>
+                                <i class="far fa-address-card"></i>
                             </div>
                         </div>
                         <div class="col-md-9">
-                            <!-- reviews source:
-                                    Author: uk.trustpilot.com
-                                    https://uk.trustpilot.com/review/www.wantdrivinglessons.com -->
                             <h3>Ahmed, Hull</h3>
                             <p>
-                                "Very pleased with the service and support I have received throughout my experience. Will definitely refer to friends and family."
+                                "Very happy with the support and service provided."
                             </p>
                         </div>
                     </div>
@@ -82,13 +79,13 @@ require_once('/u1.bath/s06/adbs864/public_html/navbar.php');
                     <div class="row">
                         <div class="col-md-3">
                             <div class="section-3-box-icon">
-                                <i class="fas fa-pencil-alt"></i>
+                                <i class="far fa-address-card"></i>
                             </div>
                         </div>
                         <div class="col-md-9">
                             <h3>Aadhil, Hemel Hempsted</h3>
                             <p>
-                                "Patient, professional and friendly instructors. Price for lessons are also affordable. Would definitely recommend taking up lessons with then."
+                                "Friendly instuctor and very affordable price."
                             </p>
                         </div>
                     </div>
@@ -100,13 +97,13 @@ require_once('/u1.bath/s06/adbs864/public_html/navbar.php');
                     <div class="row">
                         <div class="col-md-3">
                             <div class="section-3-box-icon">
-                                <i class="fas fa-pencil-alt"></i>
+                                <i class="far fa-address-card"></i>
                             </div>
                         </div>
                         <div class="col-md-9">
                             <h3>Nabeel, Leeds</h3>
                             <p>
-                                "The teams been fantastic and I've enjoyed every lesson so far. Would highly recommend"
+                                "Taught me so much more about how to use the clutch than previous instuctors."
                             </p>
                         </div>
                     </div>
@@ -115,14 +112,13 @@ require_once('/u1.bath/s06/adbs864/public_html/navbar.php');
                     <div class="row">
                         <div class="col-md-3">
                             <div class="section-3-box-icon">
-                                <i class="fas fa-pencil-alt"></i>
+                                <i class="far fa-address-card"></i>
                             </div>
                         </div>
                         <div class="col-md-9">
                             <h3>Hassan, Swansea</h3>
                             <p>
-                                "I would highly recommend want driving lessons to anyone looking for a driving school. 
-                                My instructor was flexible, patient and taught me everything I needed to know that I passed my test on my first attempt!"
+                                "I learnt to drive super fast with these instuctors!"
                             </p>
                         </div>
                     </div>
@@ -133,5 +129,5 @@ require_once('/u1.bath/s06/adbs864/public_html/navbar.php');
         </div>
     </div>
 <?php
-require_once('/u1.bath/s06/adbs864/public_html/footer.php');
+require_once "footer.php";
 ?>

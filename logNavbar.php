@@ -16,30 +16,16 @@ $html = '<!DOCTYPE html>
    <link rel="stylesheet" href="assets/css/animate.css">
    <link rel="stylesheet" href="assets/css/style.css">
    <link rel="stylesheet" href="assets/css/media-queries.css">
-   <link rel="stylesheet" href="assets/css/CalendarPicker.style.css">
-   <link rel="icon" href="assets/img/images/l-plate-jumbo-badge-11378-p.jpg" type="image/jpg" sizes="16x16">
-   <style>
-
-    #myCalendarWrapper {
-        width: 35em;
-        padding: 2em 4em;
-        position: relative;
-        font-size: 1rem;
-        margin: 2rem auto 5rem;
-        background-color: #fff;
-    }
-    </style>';
-
+   <link rel="icon" href="assets/img/images/l-plate-jumbo-badge-11378-p.jpg" type="image/jpg" sizes="16x16">';
 
 $html .= '<title>' . $pageTitle .'</title>';
-$user = $_SESSION['username'];
 $html .=   '</head>
 
 <body>
     <!-- Menu -->
     <nav class="navbar navbar-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.php">Lose The L</a>
+            <a class="navbar-brand" href="index.php">Lose The L 'echo ($_SESSION['username']);'</a>
 
             <!-- Burger menu -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,9 +48,6 @@ $html .=   '</head>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="login.php">Login/Register</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="logout.php">Logout</a>
                     </li>
                 </ul>
             </div>

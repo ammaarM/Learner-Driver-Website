@@ -4,5 +4,5 @@
 
     // end the session
     session_destroy();
-    header("Location: form.php"); // redirect back to the form
+    header("Location: login.php"); // redirect back to the form
 ?>

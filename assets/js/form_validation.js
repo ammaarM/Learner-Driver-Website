@@ -25,6 +25,15 @@ $("login-form").addEventListener("submit", (e) => {
     }
 });
 
+$("book-form").addEventListener("submit", (e) => {
+    if (!allowSubmit) {
+        e.preventDefault();
+        checkBookData(); // check for errors
+    } else {
+        // prevent the preventDefault function  
+    }
+});
+
 function checkRegData() {
     // declare constants to have a fixed value and trim off any whitespaces on the values to escape data
     const usernameValue = $("username").value.trim(); // target id of input elements using the $ function
@@ -159,3 +168,8 @@ function checkLoginData() {
         allowSubmit = true;
     }
 }   
+
+function checkBookData(){
+    const bookUsernameValue = $("book_username").value.trim();
+    const bookDateValue = $('book_date').value.trim();
+}
