@@ -3,6 +3,13 @@ session_start();
 //PHP structure based on Coyier, C. (2019) PHP Templating in Just PHP | CSS-Tricks. Available at: https://css-tricks.com/php-templating-in-just-php/ (Accessed: 28 March 2021).
 $html = '<!DOCTYPE html>
 <head>
+    <!-- 
+        *    Title: Lab 06 - Sample Solution
+        *    Author: City University of london
+        *    Date: 2021
+        *    Availability: https://moodle.city.ac.uk/mod/folder/view.php?id=1824172
+        *    Changes: Based on the navbar about.html page in lab 6, layout and population of the website were changed adjustments to the calendar were made here so that it would be in the correct format when its called..
+    -->
    <!-- Required meta tags -->
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -20,6 +27,12 @@ $html = '<!DOCTYPE html>
    <link rel="icon" href="assets/img/images/l-plate-jumbo-badge-11378-p.jpg" type="image/jpg" sizes="16x16">
    <style>
 
+   <!-- 
+    *    Title: CalendarPickerJS
+    *    Author: MathiasWP
+    *    Date: December 12, 2020
+    *    Availability: https://github.com/MathiasWP/CalendarPickerJS
+ -->
     #myCalendarWrapper {
         width: 35em;
         padding: 2em 4em;

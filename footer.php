@@ -1,6 +1,15 @@
 <?php
 //PHP structure based on Coyier, C. (2019) PHP Templating in Just PHP | CSS-Tricks. Available at: https://css-tricks.com/php-templating-in-just-php/ (Accessed: 28 March 2021).
 $html =  '
+<!-- 
+    *    Title: Lab 06 - Sample Solution
+    *    Author: City University of london
+    *    Date: 2021
+    *    Availability: https://moodle.city.ac.uk/mod/folder/view.php?id=1824172
+    *    Changes: Based on the footer from about.html page from lab 6, layout and population of the website were changed. 
+
+    
+ -->
 <!-- Footer -->
 <footer class="footer">
         <div class="container">

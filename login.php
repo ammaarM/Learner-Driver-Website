@@ -1,3 +1,11 @@
+<!-- 
+    *    Title: Lab 06 - Sample Solution
+    *    Author: City University of london
+    *    Date: 2021
+    *    Availability: https://moodle.city.ac.uk/mod/folder/view.php?id=1824172
+    *    Changes: Based on the login.html page in lab 6, few minor changes were made.
+    
+ -->
 <?php
 //PHP structure based on Coyier, C. (2019) PHP Templating in Just PHP | CSS-Tricks. Available at: https://css-tricks.com/php-templating-in-just-php/ (Accessed: 28 March 2021).
 $pageTitle = 'Lose The L - Login';

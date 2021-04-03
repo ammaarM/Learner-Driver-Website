@@ -1,4 +1,10 @@
-
+/** 
+*    Title: Lab 06 - Sample Solution
+*    Author: City University of london
+*    Date: 2021
+*    Availability: https://moodle.city.ac.uk/mod/folder/view.php?id=1824172
+*    Changes: very minor changes made here
+*/
 function scroll_to(clicked_link, nav_height) {
 	var element_class = clicked_link.attr('href').replace('#', '.');
 	var scroll_to = 0;

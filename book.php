@@ -1,3 +1,10 @@
+<!-- 
+    *    Title: Lab 08 - Sample Solution
+    *    Author: City University of london
+    *    Date: 2021
+    *    Availability: https://moodle.city.ac.uk/mod/resource/view.php?id=1846832
+    *    Changes: Based on the register.php file from lab 8, variable names and data beign sent into the data based were altered to meet the database requirements.    
+ -->
 <?php
     session_start();
     // connect to the database

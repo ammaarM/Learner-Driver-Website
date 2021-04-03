@@ -3,10 +3,20 @@
 $pageTitle = 'Lose The L - About Us';
 require_once "navbar.php";
 ?>
+<!--
+    *    Title: Lab 06 - Sample Solution
+    *    Author: City University of london
+    *    Date: 2021
+    *    Availability: https://moodle.city.ac.uk/mod/folder/view.php?id=1824172
+    *    Changes: Based on the about.html page in lab 6, layout and population of the website were changed.
 
-<!-- 
+    
+    ----------------------------------------------------------------------------------------------------------------------------------------------
+    
     image sources:
-    https://www.thesun.co.uk/wp-content/uploads/2019/07/NINTCHDBPICT000504832617-e1562980210607.jpg?w=670
+    *   https://www.thesun.co.uk/wp-content/uploads/2019/07/NINTCHDBPICT000504832617-e1562980210607.jpg?w=670
+    *   https://cdn.images.express.co.uk/img/dynamic/24/590x/secondary/Driving-lessons-latest-2464063.jpg?r=1591771069035
+    *   https://www.thesun.co.uk/wp-content/uploads/2019/07/NINTCHDBPICT000504832617-e1562980210607.jpg
  -->
     <!-- Top content -->
     <div class="top-content section-container-image-bg">

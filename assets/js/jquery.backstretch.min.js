@@ -1,3 +1,10 @@
+/** 
+*    Title: Lab 06 - Sample Solution
+*    Author: City University of london
+*    Date: 2021
+*    Availability: https://moodle.city.ac.uk/mod/folder/view.php?id=1824172
+*    Changes: no changes made here
+*/
 /*! Backstretch - v2.0.4 - 2013-06-19
 * http://srobbin.com/jquery-plugins/backstretch/
 * Copyright (c) 2013 Scott Robbin; Licensed MIT */

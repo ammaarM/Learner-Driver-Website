@@ -1,3 +1,10 @@
+/** 
+*    Title: CalendarPickerJS
+*    Author: MathiasWP
+*    Date: December 12, 2020
+*    Availability: https://github.com/MathiasWP/CalendarPickerJS
+*    Changes: very minor changes made here
+*/
 // Polyfill for Element.prototype.closest (for IE 9+)
 if (!Element.prototype.matches) { Element.prototype.matches = Element.prototype.msMatchesSelector || Element.prototype.webkitMatchesSelector; }
 if (!Element.prototype.closest) {

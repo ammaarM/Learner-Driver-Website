@@ -1,3 +1,13 @@
+<!-- 
+    *    Title: Lab 06 - Sample Solution
+    *    Author: City University of london
+    *    Date: 2021
+    *    Availability: https://moodle.city.ac.uk/mod/folder/view.php?id=1824172
+    *    Changes: Based on the login.html page from lab 6, layout and population of the website were changed as well as the inputs being changed and a calendar being added to the page. 
+    
+
+    
+ -->
 <?php
 //PHP structure based on Coyier, C. (2019) PHP Templating in Just PHP | CSS-Tricks. Available at: https://css-tricks.com/php-templating-in-just-php/ (Accessed: 28 March 2021).
 $pageTitle = 'Lose The L - About Us';
@@ -15,7 +25,14 @@ require_once "navbar.php";
             </div>
         </div>
     </section>
-    
+    <!-- 
+        *    Title: Lab 06 - Sample Solution
+        *    Author: City University of london
+        *    Date: 2021
+        *    Availability: https://moodle.city.ac.uk/mod/folder/view.php?id=1824172
+
+        Based on the footer from about.html page from lab 6
+    -->
     <h2>Booking</h2>
      <p>Please fill in this form to book an appointment:</p>
 

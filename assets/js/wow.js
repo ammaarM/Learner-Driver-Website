@@ -1,3 +1,10 @@
+/** 
+*    Title: Lab 06 - Sample Solution
+*    Author: City University of london
+*    Date: 2021
+*    Availability: https://moodle.city.ac.uk/mod/folder/view.php?id=1824172
+*    Changes: no changes made here
+*/
 (function() {
   var Util, WeakMap,
     __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
